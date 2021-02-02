@@ -24,7 +24,7 @@ function getTime() {
 }
 function init() {
     getTime();
-    setInterval(getTime, 1000)
+    setInterval(getTime, 1000);
     /*
     첫 번째 인자는 함수, 두 번째 인자는 실행할 시간 간격
     1000 == 1s
